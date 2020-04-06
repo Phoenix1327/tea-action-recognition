@@ -1,6 +1,6 @@
-# TEA: Temporal Excitation and Aggregation for Action Recognition
+# TEA: Temporal Excitation and Aggregation for Action Recognition (CVPR2020)
 
-The PyTorch code of the [TEA Module](https://arxiv.org/abs/1811.08383).
+The PyTorch code of the [TEA Module](https://arxiv.org/abs/2004.01398).
 
 ### Requirements
 
@@ -16,11 +16,11 @@ A list file is utilized to specify the video data information, including a tuple
 ```
 /data/xxx/xxx/something-something/video_frame_folder 100 12
 ```
-The path of the generated list files should be added into to [ops/dataset_configs.py](ops/dataset_configs.py)
+The path of the generated list files should be added into to `ops/dataset_configs.py`
 
 ### Training TEA
 
-We have provided several examples for training TEA models on different datasets. Please refer to Appendix B of our paper for more training details.
+We have provided several examples for training TEA models on different datasets. Please refer to the Appendix B of [our paper]((https://arxiv.org/abs/2004.01398) for more training details.
 
 - To train TEA on Something-Something V1 dataset with 8 frames:
 ```

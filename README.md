@@ -44,8 +44,8 @@ bash ./scripts/single_test_tea_something_rgb_8f.sh
 bash ./scripts/multi_test_tea_something_rgb_8f.sh
 ```
 
-### Pretrained Models
+### Pre-trained Models
 
-Currently, we do not provide the original pretrained models we obtained during our experiments, since we have reorganized the structure of the codes and renamed the modules of TEA for public release. The old models cannot be directly loaded with new names. We plan to retrain the models with the new codes and release the models for evaluation.
+Currently, we do not provide the original pre-trained models we obtained during our experiments, since we have reorganized the structure of the codes and renamed the modules of TEA for public release. The old models cannot be loaded with new names. We plan to retrain the models with the new codes and release the models for evaluation.
 
-The released codes are verified, and you will get similar performance with our paper if you have followed the exact training settings of TEA. (https://github.com/Phoenix1327/tea-action-recognition/issues/2#issuecomment-674373813)
+The released codes are verified, and you will get a similar performance with our paper if you have followed the exact training settings of TEA. (https://github.com/Phoenix1327/tea-action-recognition/issues/2#issuecomment-674373813)

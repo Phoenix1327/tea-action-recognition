@@ -152,7 +152,7 @@ class TSNDataSet(data.Dataset):
             index = np.random.randint(len(self.video_list))
             record = self.video_list[index]
             file_name = self.image_tmpl.format(1)
-            full_path = os.path.join(self.root_path, record.path, file_name)
+            full_path = os.path.join(record.path, file_name)
 
         if not self.test_mode:  # training or validation set
             if self.random_shift:  # training set
